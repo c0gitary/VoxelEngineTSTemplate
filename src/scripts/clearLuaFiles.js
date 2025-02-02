@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-const packageMod = require('../src/package.json');
+const packageMod = require('../../src_package/package.json');
 const modName = packageMod.id;
 
 const directory = `./${modName}`;

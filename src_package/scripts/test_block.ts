@@ -2,7 +2,7 @@ import Vector3 from "./vector3";
 
 on_placed = (x, y, z, playerId) => {
     const position = new Vector3(x, y, z)
-    print(`Установили блок ${position.toString()}`)
+    print(`Установили блок ${position.toString()} и ${position.norm()}`)
 }
 
 on_interact = (x, y, z, playerId) => {

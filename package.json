@@ -1,12 +1,12 @@
 {
-  "name": "ve-dagger-templ",
-  "version": "1.0.0",
+  "name": "voxelcore-dagger-cgtry-templ",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "clearDist": "node scripts/clearDistFolder.js",
-    "copyProject": "node scripts/copyProjectSrc.js",
+    "clearDist": "node src/scripts/clearDistFolder.js",
+    "copyProject": "node src/scripts/copyProjectSrc.js",
     "build": "npm run clearDist && tstl && npm run copyProject",
     "tstl": "tstl",
     "dev": "tstl --watch"

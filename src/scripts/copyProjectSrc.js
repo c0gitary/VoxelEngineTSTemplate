@@ -43,10 +43,10 @@ function processPath(extPath, modNameValue) {
     }
 }
 
-const packageMod = require('../src/package.json');
-const settingsMod = require('../pack-settings.json');
+const packageMod = require('../../src_package/package.json');
+const settingsMod = require('../../pack-settings.json');
 
-const srcDirectory = './src';
+const srcDirectory = './src_package';
 const distDirectory = './dist';
 
 const destDirectory = processPath(settingsMod.extPath, packageMod.id)

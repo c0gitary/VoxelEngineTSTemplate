@@ -3,7 +3,8 @@ dist
 
 .Ds_Store
 
-schemas/vengine
+src/schemas/vengine
+/src_package
 
 yarn.lock
 package-lock.json

@@ -14,4 +14,8 @@ export default class Vector3 implements IVector3 {
     toString(): string {
         return `X:${this.x} Y:${this.y} Z:${this.z}`
     }
+
+    norm(): number {
+        return (1/this.x) + (1/this.y) + (1/this.z);
+    }
 }

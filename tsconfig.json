@@ -8,7 +8,7 @@
     "resolveJsonModule": true,
     "strict": false,
     "outDir": "dist/",
-    "rootDir": "src/",
+    "rootDir": "src_package/",
     "types": [
       "lua-types/jit",
       "@leminantro/voxelengine-types"
@@ -20,11 +20,11 @@
     "luaLibImport": "require-minimal",
 
     "luaPlugins": [
-      { "name": "./scripts/transformer.js" },
+      { "name": "./src/scripts/transformer.js" },
     ]
   },
-  "include": ["src/**/*"],
+  "include": ["src_package/**/*"],
   "exclude": [
-    "src/**/*.json"
+    "src_package/**/*.json"
   ],
 }
